@@ -3,6 +3,13 @@
          xsi:schemaLocation = "http://maven.apache.org/POM/4.0.0
     http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.4.2.RELEASE</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+
     <!-- 模型版本 -->
     <modelVersion>4.0.0</modelVersion>
     <!-- 公司或者组织的唯一标志，也是打包成jar包路径的依据 -->
@@ -17,4 +24,10 @@
 
     <!--项目产生的构件类型，包括jar、war、ear、pom等 -->
     <packaging>jar</packaging>
+
+
+
+    <dependencies>
+
+    </dependencies>
 </project>
