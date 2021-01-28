@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: watch-leancloud
+
+
+notice:
+  url: https://valine.xuct.com.cn
